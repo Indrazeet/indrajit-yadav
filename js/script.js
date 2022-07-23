@@ -6,6 +6,17 @@ var typed = new Typed(".typing",{
     loop:true
 });
 /*=========================================== aside ==================================================================== */
+/*=========================================== PAGE LOADER START ==================================================================== */
+// window.addEventListener("load",() => {
+//     document.querySelector(".main-content").classList.remove("hidden")
+//     document.querySelector(".main-container").classList.add("active")
+// /* --------------Page Loader ----------*/
+// document.querySelector(".page-loader").classList.add(" fade-out");
+// setTimeout(()=>{
+//   document.querySelector(".page-loader").style.display = "";
+// },600);
+// });
+/*=========================================== PAGE LOADER END==================================================================== */
 const nav = document.querySelector(".nav"),
          navList = nav.querySelectorAll("li"),
            totalNavList = navList.length,
